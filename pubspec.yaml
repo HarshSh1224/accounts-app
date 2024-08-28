@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   flutter_bloc: ^8.1.6
   go_router: ^14.2.7
+  accounts_repository:
+    path: ./packages/accounts_repository
 
 dev_dependencies:
   flutter_test:
