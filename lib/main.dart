@@ -1,3 +1,4 @@
+import 'package:accounts_app/routes/routes_config.dart';
 import 'package:accounts_repository/accounts_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp.router(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(useMaterial3: true),
+        routerConfig: AppRouter().router,
       ),
     );
   }

@@ -4,4 +4,5 @@ class RepoConstants {
   static const String lastName = 'last_name';
   static const String avatar = 'avatar';
   static const String email = 'email';
+  static const String data = 'data';
 }

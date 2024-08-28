@@ -39,6 +39,7 @@ dependencies:
   go_router: ^14.2.7
   accounts_repository:
     path: ./packages/accounts_repository
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:

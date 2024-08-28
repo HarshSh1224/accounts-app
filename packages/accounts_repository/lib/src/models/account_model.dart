@@ -3,7 +3,7 @@ import 'dart:convert';
 import '../constants/repo_constants.dart';
 
 class UserAccount {
-  String id;
+  int id;
   String firstName;
   String lastName;
   String avatar;
@@ -42,4 +42,6 @@ class UserAccount {
   String toJson() => json.encode(toMap());
 
   factory UserAccount.fromJson(String source) => UserAccount.fromMap(json.decode(source));
+
+  String get fullName => firstName + ' ' + lastName;
 }
